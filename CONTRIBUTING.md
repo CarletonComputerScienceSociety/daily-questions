@@ -5,3 +5,7 @@ directory named after your GitHub username (or real name if you prefer) in the
 solutions directory for the appropriate date. Create a file named 
 `solution.lang` in your solution directory where `lang` is the file extension 
 for the language of your choice.
+
+Once you are done submit a 
+[pull request](https://github.com/CarletonComputerScienceSociety/daily-questions/pulls) 
+to share your solution.
