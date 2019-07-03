@@ -1,0 +1,1 @@
+function max(arr) { return Math.max(...arr); }
