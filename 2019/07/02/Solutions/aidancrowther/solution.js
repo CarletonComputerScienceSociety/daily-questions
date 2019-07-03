@@ -1,0 +1,1 @@
+function shift(arr){if(arr.length == 1) return arr[0]; if(arr[0] && arr.length > 1) return [arr.shift()].concat(shift(arr)); if(!arr[0] && arr.length > 1) arr.shift(); return Array.from(shift(arr)).concat(0);}
