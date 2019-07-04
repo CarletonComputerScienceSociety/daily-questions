@@ -1,0 +1,1 @@
+function kLargest(arr, k){ if(k-1) arr.splice(arr.indexOf(kLargest(arr, k-1)), 1); return Math.max(...arr); }
