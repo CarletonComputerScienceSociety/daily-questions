@@ -11,11 +11,11 @@ Example:
 ```
 board = [
     ['A', 'B', 'C', 'E'],
-    ['S', 'F', 'C', 'F'],
+    ['S', 'F', 'C', 'S'],
     ['A', 'D', 'E', 'E']
 ]
 
 Given word "ABCCED", return true.
 Given word "SEE", return true.
-Given word "ABCB", return true.
+Given word "ABCB", return false.
 ```
