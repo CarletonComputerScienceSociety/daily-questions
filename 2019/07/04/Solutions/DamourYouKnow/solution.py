@@ -5,7 +5,7 @@ class Node:
         self.neighbors = set()
 
     def search(self, word, path='', visited=set()):
-        visited.add(self)
+        visited = visited.union({self})
         path += self.letter
         if path == word:
             return True
