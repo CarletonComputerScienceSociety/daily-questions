@@ -5,12 +5,12 @@ class Node:
         self.neighbors = set()
 
     def search(self, word, path='', visited=set()):
-        visited = visited.union({self})
+        visited = visited | {self}
         path += self.letter
         if path == word:
             return True
         if path == word[:len(path)]:
-            unvisited = {n for n in self.neighbors if n not in visited}
+            unvisited = self.neighbors - visited
             return True in [n.search(word, path, visited) for n in unvisited]
         return False
 
