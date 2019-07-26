@@ -1,7 +1,7 @@
 # July 26, 2019 - 3 furthest nodes
 
 Given a graph with weighted edges and nodes with values `{0, 1, ..., n}`, find 
-the 3 furthest neighboring nodes such that the total distance between them is 
+the 3 furthest nodes such that the total distance between them is 
 maximized.
 
 The input graph is represented as an adjacency matrix such that `matrix[i][j]` 
