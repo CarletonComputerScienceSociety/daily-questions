@@ -1,3 +1,12 @@
 function removeDuplicates(str) {
-    return str.split('').reduce((a, c) => c == a[a.length-1] ? a : [...a, c], []).join('');
+    const remove = (arr) => {
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] == arr[i-1]) {
+                return remove([...arr.slice(0, i-1), ...arr.slice(i+1)]);
+            }
+        }
+        return arr;
+    };
+
+    return remove(str.split('')).join('');
 }
