@@ -5,5 +5,5 @@ Given two strings, return the longest substring that occurs in both strings.
 Example:
 ```
 Input: strings "abcdddefg" and "aabbccddd"
-Output: "ddd"
+Output: "cddd"
 ```
