@@ -1,4 +1,4 @@
-# August 13, 2019 - 
+# August 13, 2019 - Flat
 
 Write a function that takes an array of arrays as input and concatenates 
 all of the arrays in the input array into a single array while preserving order.
