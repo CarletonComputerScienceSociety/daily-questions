@@ -5,7 +5,7 @@ binary expansion.
 
 The first evil numbers are `0, 3, 5, 6, 9, 10, 12, ...`
 
-Given an evil number, return `true` if the number is evil, otherwise return 
+Given a number, return `true` if the number is evil, otherwise return 
 `false`.
 
 Example:
