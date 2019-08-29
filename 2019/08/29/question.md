@@ -8,7 +8,7 @@ form a line of four consecutive pieces of their colour either vertically,
 horizontally, or diagonally.
 
 Given an incomplete Connect Four grid composed of integers where `0` represents 
-an empty space, `1` represents a red piece, and `1` represents a blue piece, 
+an empty space, `1` represents a red piece, and `2` represents a blue piece, 
 Return the array of column indices (starting from 0) that would result in a win 
 for the red player.
 
